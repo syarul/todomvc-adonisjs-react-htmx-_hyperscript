@@ -1,0 +1,41 @@
+name: AdonisJS Build and Cypress Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - name: Run AdonisJS Server
+        run: |
+            npm install
+            npm run dev &
+
+      - name: Clone cypress-example-todomvc
+        run: git clone https://github.com/cypress-io/cypress-example-todomvc.git cypress-example-todomvc
+
+      - name: Install Cypress Dependencies
+        run: |
+          cd cypress-example-todomvc
+          npm install
+
+      - name: Run Cypress Tests
+        run: |
+          cd cypress-example-todomvc
+          npm run cypress:run
+
+      - name: Stop AdonisJS Server
+        run: pkill -f "npm run dev"
