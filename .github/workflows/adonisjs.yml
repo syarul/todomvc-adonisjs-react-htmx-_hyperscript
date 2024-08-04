@@ -22,6 +22,7 @@ jobs:
       - name: Run AdonisJS Server
         run: |
             npm install
+            cp .env.example .env
             npm run dev &
 
       - name: Clone cypress-example-todomvc
