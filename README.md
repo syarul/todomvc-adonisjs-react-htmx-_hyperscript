@@ -8,7 +8,7 @@
      o888o   o888o     o888o     o8o        o888o o888o  o88888o
     ===========================================================
             Build with AdonisJS, React, HTMX & _HYPERSCRIPT
-[![AdonisJS](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/workflows/go.yml/badge.svg)](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/workflows/go.yml)
+[![AdonisJS Build and Cypress Tests](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/workflows/adonisjs.yml/badge.svg)](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/workflows/adonisjs.yml)
 
 ### E2E Testing
 
@@ -30,6 +30,17 @@ Emulating the functionalities of modern frameworks which is base on React TodoMV
 - `npm install`
 - if you need to see the test in browser run `npm run cypress:open`
 - for headless test `npm run cypress:run`
+
+### Build with
+All File structures is following AdonisJS Framework guidelines.
+- Initially created with `npm init adonisjs@latest todomvc-adonisjs-react-htmx-_hyperscript -- --kit=api`
+- Middleware is added to handle formatting request query with i.e., `node ace make:middleware format`
+- Services is added using DI(Dependencies Injection) to handle Filter and Todo, read more at https://docs.adonisjs.com/guides/concepts/dependency-injection#dependency-injection
+- Controller is added with i.e., `node ace make:controller page`
+- Session support is added with `node ace add @adonisjs/session`
+- Static file support is added with `node ace add @adonisjs/static`
+- Resources for React is place at `resources/components`
+- Resources for Static _hyperscript is place at `public/hs`
 
 ### HTMX
 Visit [https://github.com/rajasegar/awesome-htmx](https://github.com/rajasegar/awesome-htmx) to look for HTMX curated infos
