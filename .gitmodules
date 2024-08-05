@@ -1,0 +1,4 @@
+[submodule "public/hs"]
+	path = public/hs
+	url = https://github.com/syarul/todomvc-hs
+	branch = alt

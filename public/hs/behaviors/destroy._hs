@@ -1,8 +1,0 @@
-behavior Destroy
-  on htmx:afterRequest debounced at 50ms
-    send toggleMain to <section.todoapp/>
-    send toggleFooter to <section.todoapp/>
-    send focus to <input.new-todo/>
-    if $todo
-      send toggleClearCompleted to <footer.footer/>
-      send show to <section.todoapp/>
