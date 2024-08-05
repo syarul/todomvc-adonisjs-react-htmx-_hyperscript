@@ -35,7 +35,7 @@ Emulating the functionalities of modern frameworks which is base on React TodoMV
 All File structures is following AdonisJS Framework guidelines.
 - Initially created with `npm init adonisjs@latest todomvc-adonisjs-react-htmx-_hyperscript -- --kit=api`
 - Middleware is added to handle formatting request query with i.e., `node ace make:middleware format`
-- Services is added using DI(Dependencies Injection) to handle Filter and Todo, read more at https://docs.adonisjs.com/guides/concepts/dependency-injection#dependency-injection
+- Services is added using DI(Dependencies Injection) i.e., `node ace make:service todo`, read more at https://docs.adonisjs.com/guides/concepts/dependency-injection#dependency-injection
 - Controller is added with i.e., `node ace make:controller page`
 - Session support is added with `node ace add @adonisjs/session`
 - Static file support is added with `node ace add @adonisjs/static`
