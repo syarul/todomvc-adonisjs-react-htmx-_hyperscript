@@ -1,28 +1,5 @@
 behavior ClearCompleted
   on load
     set $clearCompleted to me
-    -- log $clearCompleted
   on click
-    -- log 'aw'
     send destroy to <li.completed/>
-    -- wait 200ms
-    -- fetch /clear-completed then
-    --   if it === ''
-    --     remove me
-    --   end
-    --   fetch /todo-json?only=id as json then
-    --     -- log (it || []).map(function(i) { return i.id })
-    --     set todoJson to it
-    --     -- js $todoJson.map((i) => console.log(i)) end
-    --     -- for todo in it
-    --     document.getElementsByClassName('todo completed') then
-    --       for ele in it
-    --         -- if (todoJson.includes(ele.id.split('-')[1]))
-    --         set id to ele.id.split('-')[1]
-    --         log id, todoJson
-    --         if todoJson.includes(id) === false
-    --           log 'true'
-    --           document.getElementById(`todo-${id}`) then if it remove it end
-    --         end
-    --       end
-    --     end

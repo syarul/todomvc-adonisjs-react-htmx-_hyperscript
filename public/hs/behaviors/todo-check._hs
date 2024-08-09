@@ -4,12 +4,10 @@ behavior TodoCheck
     send toggleClearCompleted to <footer.footer/>
     send toggleFooter to <section.todoapp/>
   on toggle
-    -- log me
     if $toggleAll.checked and my.checked === false
       my.click()
     else if $toggleAll.checked === false and my.checked
       my.click()
     end
   on toggle debounced at 20ms
-    -- log me
     send toggleClearCompleted to <footer.footer/>
