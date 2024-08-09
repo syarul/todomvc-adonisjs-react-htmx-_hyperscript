@@ -10,6 +10,14 @@
             Build with AdonisJS, React, HTMX & _HYPERSCRIPT
 [![AdonisJS Build and Cypress Tests](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/workflows/adonisjs.yml/badge.svg)](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/workflows/adonisjs.yml)
 
+| HTMX TodoMVC           | Link                                             |
+| ---------------------- | ------------------------------------------------ |
+| Go, Templ              | [🌄](https://github.com/syarul/todomvc-go-templ-htmx-_hyperscript)|
+| Rust, Astra, Maud      | [🌠](https://github.com/syarul/todomvc-rust-astra-maud-htmx-_hyperscript)|
+| ExpressJS, Typescript, React     | [✈️](https://github.com/syarul/htmx-todomvc)|
+| AdonisJS, Typescript, React    | [🎡](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript)|
+| Lua, Luvit             | [⛵](https://github.com/syarul/todomvc-lua-luvit-htmx-_hyperscript)|
+
 ### E2E Testing
 
 
@@ -40,7 +48,7 @@ All File structures is following AdonisJS Framework guidelines.
 - Session support is added with `node ace add @adonisjs/session`
 - Static file support is added with `node ace add @adonisjs/static`
 - Resources for React is place at `resources/components`
-- Resources for Static _hyperscript is place at `public/hs`
+- Resources for static _hyperscript is place at `public/hs`
 
 ### HTMX
 Visit [https://github.com/rajasegar/awesome-htmx](https://github.com/rajasegar/awesome-htmx) to look for HTMX curated infos
