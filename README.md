@@ -16,7 +16,7 @@
 | Rust, Astra, Maud      | [🌠](https://github.com/syarul/todomvc-rust-astra-maud-htmx-_hyperscript)|
 | ExpressJS, Typescript, React     | [✈️](https://github.com/syarul/htmx-todomvc)|
 | AdonisJS, Typescript, React    | [🎡](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript)|
-| Lua, Luvit             | [⛵](https://github.com/syarul/todomvc-lua-luvit-htmx-_hyperscript)|
+| Lua, Luasocket             | [⛵](https://github.com/syarul/todomvc-lua-luasocket-htmx-_hyperscript)|
 
 ### E2E Testing
 
