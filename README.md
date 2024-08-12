@@ -24,7 +24,7 @@
 https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/assets/2774594/fdcba602-73f2-499b-a106-152569d37e80
 
 
-Emulating the functionalities of modern frameworks which is base on React TodoMVC, [cypress test](https://github.com/syarul/todomvc-adonisjs-react-htmx-_hyperscript/actions/runs/7412273948/job/20168687544) from https://github.com/cypress-io/cypress-example-todomvc. This demonstration serves to showcase that HTMX, when paired with _hyperscript, can replicate if not all the behaviors typically associated with most modern client framework with minimum needs to write javascript.
+Emulating the functionalities of modern frameworks which is base on React TodoMVC. This demonstration serves to showcase that HTMX, when paired with _hyperscript, can replicate if not all the behaviors typically associated with most modern client framework with minimum needs to write javascript.
 
 ### Usage
 - use node v21 or newer
